@@ -35,4 +35,4 @@ function equalFunc(val){
 
 function removeFunc(val){
     disp.value = '';
-}
+};
