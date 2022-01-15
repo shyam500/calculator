@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins','Courier New', Courier, monospace;
+}
+
+header{
+    height: 10vh;
+    background: linear-gradient(to right,#20bf55,#01baef);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2.5rem;
+    font-size: 1.5rem;
+}
+
+main{
+    background: rgb(34, 34, 34);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp{
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: right;
+}
+
+#box{
+    border: 1px solid #20bf55;
+    border-radius: 0.2rem;
+    width: 300px;
+    overflow: none;
+}
+
+#keypad{
+    height: 300px;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn{
+    color: white;
+    background-color: turquoise;
+    width: calc(300px/4);
+    height: calc(300px/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.clear{
+    color: white;
+    background-color: red;
+    width: calc(300px/4);
+    height: calc(300px/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 4px;
+}
+
+footer{
+    height: 5vh;
+    background: linear-gradient(to right,#20bf55,#01baef);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
